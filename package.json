@@ -14,6 +14,7 @@
     "simple-uuid": "^0.0.1"
   },
   "devDependencies": {
+    "chai-http": "^1.0.0",
     "mocha": "^2.3.2"
   },
   "scripts": {
