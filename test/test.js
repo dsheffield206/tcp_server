@@ -2,11 +2,10 @@
 
 var expect = require('chai').expect;
 var server = require(__dirname + '/../tcp_server');
-var UUID = require('simple-uuid');
 
 
-describe('UUID', function() {
-    it('should create a UUID', function() {
-        expect(server.uuid).to.not.eql(null);
+describe('server', function() {
+    it('should create server data to string', function() {
+        expect(server.data.toString()).to.not.eql(null);
     });
 });
