@@ -1,0 +1,32 @@
+{
+  "name": "tcp_server",
+  "version": "1.0.0",
+  "description": "simple tcp_server for code fellows class assignment",
+  "main": "tcp_server.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^3.2.0",
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-mocha": "^2.1.3",
+    "simple-uuid": "^0.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dsheffield206/tcp_server.git"
+  },
+  "author": "David Sheffield",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dsheffield206/tcp_server/issues"
+  },
+  "homepage": "https://github.com/dsheffield206/tcp_server"
+}
