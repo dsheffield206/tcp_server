@@ -8,7 +8,7 @@ var server = net.createServer(function(socket) {
         fs.writeFile(__dirname + '/../D49/tcp_server/test/' + date.now().date.toString(), data.toString(), function(err) {
             if (err) return console.log(err);
         });
-        console.log(data.toString());
+        console.log('writing data to file!');
     });
 
     socket.on('error', function() {
